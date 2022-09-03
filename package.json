@@ -1,7 +1,7 @@
 {
   "name": "project-urlshortener-freecodecamp",
-  "version": "0.0.3",
-  "description": "My solution Url Shortner",
+  "version": "0.0.1",
+  "description": "API project for freeCodeCamp",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,14 +12,19 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.3",
-    "mongoose": "^5.10.15",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4",
     "mongoose-auto-increment": "^5.0.1",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
   },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-urlshortener-freecodecamp#readme",
-  "author": "Luis Fernando Brito",  
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
+  "author": "Luis Fernando Brito",
+  "keywords": [
+    "freeCodeCamp",
+    "node",
+    "express"
+  ],
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.4"
